@@ -40,7 +40,7 @@ export default function FollowUpModal({
       };
 
       // Send POST request to ngrok endpoint
-      const response = await fetch(' https://aadc56ce494b.ngrok-free.app/ask_policy', {
+      const response = await fetch(' http://127.0.0.1:8000/ask_policy', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
