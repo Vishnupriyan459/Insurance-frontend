@@ -69,7 +69,7 @@ export default function QueryInterface({ onSubmit, loading,setLoading }: QueryIn
   try {
     setLoading(true);
 
-    const baseUrl = " https://aadc56ce494b.ngrok-free.app";
+    const baseUrl = " http://127.0.0.1:8000";
     const params = new URLSearchParams({
       user_query: filters.query,
       category: filters.category,
